@@ -121,9 +121,9 @@ function questao8() {
     }
   
     let nome = prompt("Digite seu nome");
-    let n1 = Number(prompt("Digite a primeira nota"));
-    let n2 = Number(prompt("Digite a segunda nota"));
-    let n3 = Number(prompt("Digite a terceira nota"));
+    let num1 = Number(prompt("Digite a primeira nota"));
+    let num2 = Number(prompt("Digite a segunda nota"));
+    let num3 = Number(prompt("Digite a terceira nota"));
   
-    calculaMedia(n1, n2, n2, nome);
+    calculaMedia(num1, num2, num3, nome);
   }
